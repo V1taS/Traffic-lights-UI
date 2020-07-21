@@ -13,6 +13,9 @@
 		1B5F455424C6317400A90F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5F455324C6317400A90F18 /* Assets.xcassets */; };
 		1B5F455724C6317400A90F18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B5F455624C6317400A90F18 /* Preview Assets.xcassets */; };
 		1B5F455A24C6317400A90F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B5F455824C6317400A90F18 /* LaunchScreen.storyboard */; };
+		1B7B94A224C636DA009EF262 /* SignalColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7B94A124C636DA009EF262 /* SignalColor.swift */; };
+		1B84DD2624C665A600151210 /* BoxTrafficlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B84DD2524C665A600151210 /* BoxTrafficlights.swift */; };
+		1B84DD2824C6685A00151210 /* BackgroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B84DD2724C6685A00151210 /* BackgroundApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		1B5F455624C6317400A90F18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1B5F455924C6317400A90F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B5F455B24C6317400A90F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B7B94A124C636DA009EF262 /* SignalColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalColor.swift; sourceTree = "<group>"; };
+		1B84DD2524C665A600151210 /* BoxTrafficlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxTrafficlights.swift; sourceTree = "<group>"; };
+		1B84DD2724C6685A00151210 /* BackgroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +62,11 @@
 		1B5F454C24C6317100A90F18 /* Traffic lights UI */ = {
 			isa = PBXGroup;
 			children = (
-				1B5F454D24C6317100A90F18 /* AppDelegate.swift */,
-				1B5F454F24C6317100A90F18 /* SceneDelegate.swift */,
 				1B5F455124C6317100A90F18 /* ContentView.swift */,
-				1B5F455324C6317400A90F18 /* Assets.xcassets */,
-				1B5F455824C6317400A90F18 /* LaunchScreen.storyboard */,
-				1B5F455B24C6317400A90F18 /* Info.plist */,
+				1B84DD2C24C66AD200151210 /* Files */,
+				1B84DD2B24C66A9D00151210 /* Storyboard */,
+				1B84DD2A24C66A8600151210 /* Source */,
+				1B84DD2924C66A7100151210 /* Other */,
 				1B5F455524C6317400A90F18 /* Preview Content */,
 			);
 			path = "Traffic lights UI";
@@ -73,6 +78,42 @@
 				1B5F455624C6317400A90F18 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B84DD2924C66A7100151210 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1B5F455B24C6317400A90F18 /* Info.plist */,
+				1B5F454D24C6317100A90F18 /* AppDelegate.swift */,
+				1B5F454F24C6317100A90F18 /* SceneDelegate.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		1B84DD2A24C66A8600151210 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1B5F455324C6317400A90F18 /* Assets.xcassets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1B84DD2B24C66A9D00151210 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1B5F455824C6317400A90F18 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		1B84DD2C24C66AD200151210 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B7B94A124C636DA009EF262 /* SignalColor.swift */,
+				1B84DD2524C665A600151210 /* BoxTrafficlights.swift */,
+				1B84DD2724C6685A00151210 /* BackgroundApp.swift */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +187,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B7B94A224C636DA009EF262 /* SignalColor.swift in Sources */,
 				1B5F454E24C6317100A90F18 /* AppDelegate.swift in Sources */,
+				1B84DD2824C6685A00151210 /* BackgroundApp.swift in Sources */,
+				1B84DD2624C665A600151210 /* BoxTrafficlights.swift in Sources */,
 				1B5F455024C6317100A90F18 /* SceneDelegate.swift in Sources */,
 				1B5F455224C6317100A90F18 /* ContentView.swift in Sources */,
 			);
@@ -288,7 +332,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Traffic lights UI/Preview Content\"";
 				DEVELOPMENT_TEAM = 34VDSPZYU9;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Traffic lights UI/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Traffic lights UI/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +352,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Traffic lights UI/Preview Content\"";
 				DEVELOPMENT_TEAM = 34VDSPZYU9;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Traffic lights UI/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Traffic lights UI/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
