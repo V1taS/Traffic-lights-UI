@@ -110,8 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				1B7B94A124C636DA009EF262 /* SignalColor.swift */,
-				1B84DD2524C665A600151210 /* BoxTrafficlights.swift */,
 				1B84DD2724C6685A00151210 /* BackgroundApp.swift */,
+				1B84DD2524C665A600151210 /* BoxTrafficlights.swift */,
 			);
 			path = Files;
 			sourceTree = "<group>";

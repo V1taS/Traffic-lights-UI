@@ -20,19 +20,16 @@ struct SignalColor: View {
                 .frame(width: 100, height: 100, alignment: .center)
                 .foregroundColor(.red)
                 .opacity(red)
-                .tag(1)
             
             Circle()
                 .frame(width: 100, height: 100, alignment: .center)
                 .foregroundColor(.yellow)
                 .opacity(yellow)
-                .tag(2)
             
             Circle()
                 .frame(width: 100, height: 100, alignment: .center)
                 .foregroundColor(.green)
                 .opacity(green)
-                .tag(3)
         }
     }
 }
